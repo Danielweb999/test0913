@@ -108,7 +108,7 @@
 
                 </ul>
                 <div id="tabs-1">
-                    <table width="300" border="0" cellspacing="10px" cellpadding="0">
+                    <table  border="0" cellspacing="10px" cellpadding="0">
                         <tr>
                             <th width="157" scope="row">美聯東區</th>
                             <td width="143" scope="row">
@@ -142,7 +142,7 @@
                     </table>
                 </div>
                 <div id="tabs-2">
-                    <table width="300" border="0" cellspacing="10px" cellpadding="0">
+                    <table  border="0" cellspacing="10px" cellpadding="0">
                         <tr>
                             <th width="157" scope="row">國聯東區</th>
                             <td width="143">
@@ -186,7 +186,7 @@
 
                 </ul>
                 <div id="tabs-3">
-                    <table width="300px"   cellspacing="10px" cellpadding="0">
+                    <table    cellspacing="10px" cellpadding="0">
                         <tr>
                             <th width="157" scope="row">防禦率</th>
                             <td width="157" scope="row">Kyle Hendricks</td>
@@ -218,7 +218,7 @@
                     </table>
                 </div>
                 <div id="tabs-4">
-                    <table width="100%" border="0" cellspacing="10px" cellpadding="0">
+                    <table  border="0" cellspacing="10px" cellpadding="0">
                         <tr>
                             <th width="157" scope="row">打擊率</th>
                             <td width="187" scope="row">Daniel Murphy</td>

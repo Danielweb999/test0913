@@ -93,7 +93,7 @@
                 <div class="Wrap">
                     <div class="NewsPotoDiv"><img src="images/NewsPoto/news3.jpg" alt="" class="NewsImg"></div>
                     <p class="NewsDate">2016/06/11</p>
-                    <p class="NewsTitle"><a href="#">鈴木一朗3000安</a></p>
+                    <p class="NewsTitle"><a href="#">鈴木一朗5000安</a></p>
                 </div>
             </div>
             <!-- 新聞end -->

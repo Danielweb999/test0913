@@ -1,0 +1,374 @@
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  全 域                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+body{
+width: 100%;
+  margin: auto;
+
+}
+
+#Header{
+  width: 90%;
+  /*background-image: url('../images/bg/header3.jpg')  ;*/
+  background-position:center;
+  background-repeat:no-repeat;
+  overflow: hidden;
+  margin: auto;
+}
+#Header>.Container{
+  width: 100%;
+  /*background-image: url('../images/bg/header5.jpg')  ;*/
+  background-position:center;
+  background-repeat:no-repeat;
+  overflow: hidden;
+}
+.Container{
+  width: 90%;
+/*background-image: url('../images/bg/midbg.jpg');*/
+  margin: auto;
+}
+#Taste{
+  width: 90%;
+  background-image: url('../images/bg/header2.jpg');
+  margin: auto;
+}
+.clear{clear:both;}
+#MenuIcon{
+  width: 15.6%;
+margin-left: 25px;
+  margin-top: 15px;
+  float: left;
+}
+#Logo{
+  width: 55%;
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+
+}
+#Logo img{width: 100%;}
+.DB{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.SrOnly{
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  border: 0px;
+  margin: -1px;
+  overflow: hidden;
+  clip:rect(0,0,0,0);
+}
+#MemberContent{
+  width: 16.8%;
+  height: 88px;
+
+  float: right;
+  margin-right: 0.3%;
+}
+#MemberContent>div{
+  float: left;
+  width: 50%;
+  margin-top: 20px;
+  /*min-width: 50px;*/
+}
+#MemberIcon img{width: 100%;
+
+}
+#CartIcon img{width: 85%;
+
+}
+#PrimaryNavigation{
+
+  float: center;
+  margin: auto;
+  width: 70%;
+  display: none;
+
+}
+#PrimaryNavigation>ul{
+  list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+#PrimaryNavigation>ul>li{
+  width: 100%
+  height: 55px;
+  line-height: 55px;
+  border: 2px solid #fff;
+  border-radius:15px;
+background-color: rgb(25, 128, 128);
+  text-align: center;
+  margin-bottom: 1px;
+
+}
+#PrimaryNavigation>ul>li>a{
+  text-decoration: none;
+  color: #fff;
+font-size:30px;
+font-family: 'cwTeXYen', sans-serif;
+}
+#Banner{margin: auto;}
+#BannerContent img{
+  width: 100%;
+margin: auto;
+}
+.Content{
+  width: 100%;
+
+  background-color: lightblue;}
+.NewsImg{
+  display: none;
+}
+.NewsDate{
+  color: #9FB783;
+  font-family: "Verdana",sans-serif;
+}
+.NewsTitle>a{
+  color: #123456;
+
+}
+#News{
+  width: 90%;margin: auto;
+}
+#News>.Container{
+  width: 100%;
+  background-image: url('../images/bg/midbg.jpg');
+  background-position:center;
+  background-repeat:no-repeat;
+  overflow: hidden;
+}
+#Taste .Wrap{
+  position: relative;
+}
+#Taste>.Container{
+  width: 100%;
+  background-image: url('../images/bg/midbg.jpg')  ;
+  background-position:center;
+  background-repeat:no-repeat;
+  overflow: hidden;
+}
+.TipTag{
+  top: -21px;
+  right: 12px;
+  width: 51px;
+  height: 46px;
+  background-color: #15a5da;
+  position: absolute;
+}
+#Copyrights{
+  width: 100%;
+  height: 50px;
+  background-color: green;
+  text-align: center;
+}
+
+#SocietyContent i{
+
+  font-size: 30px;
+  color:pink;
+}
+#FacebookIcon,#GooglePlus,#FacebookIcon>a,#GooglePlus>a{
+  display: inline;
+}
+#Team{width: 360px;background-color: rgb(82, 208, 226);margin: auto;padding-top: 8px;}
+#Player{width: 360px;background-color: rgb(151, 186, 71);margin: auto;padding-top: 8px;}
+/*#Player>.tabs>table{border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #666;}*/
+
+  #PageTop{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(87, 163, 236, 0.6);
+    position: fixed;
+    right:3.5%;
+    bottom:50px;
+    border-radius:50%;
+    display: none;
+  }
+  #PageTop>a{
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                手機轉置                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+
+@media screen and (min-width: 481px){
+  body{
+    /*background-color: green;*/
+  }
+}
+
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  平板版                   */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+@media screen and (min-width: 768px){
+  body{
+    /*background-color: blue;*/
+  }
+  #Header>.Container{
+    width: 100%;
+  }
+  #MenuIcon{display:none;}
+  #News{
+width: 90%;
+margin-left: 5%;
+
+    /*background-image: url('../images/bg/bg_01.jpg');*/
+  }
+
+  #Logo{
+    width: 30%;
+    margin-left: 38%;
+    margin-top: 50px;
+    height: 39px;
+  }
+  #MemberContent{
+    width: 80px;
+    height: 40px;}
+    #MemberContent>div{
+      width: 40px;
+      height: 40px;}
+
+      #BannerContent img{
+        width: 100%;
+        float: left;;
+
+        margin: auto;
+      }
+
+      #PrimaryNavigation{
+        width: 100%;
+      margin: auto;
+      display: block;
+  }
+#PrimaryNavigation>ul>li{
+  margin-left: 0.2%;
+  width: 19.8%;border-radius:20px;
+border: 0px;
+  float: left;}
+  #PrimaryNavigation>ul>li>a{font-size:30px;}
+
+  #PrimaryNavigation>ul>li>a:hover{
+    color:red;
+    background-color: pink;border-radius:20px;
+
+}
+.Content{
+  width: 33.3333333333333333%;
+
+  background-color: lightblue;
+  float: left;
+
+}
+
+.Wrap{
+    width: 97.5%;
+    background-color: gray;
+margin: auto;
+
+  }
+.Container{
+  overflow: hidden;
+}
+.NewsImg{
+display: block;
+overflow:hidden;
+width: 100%;
+margin:auto;
+}
+.NewsPotoDiv{
+height: 160px;
+overflow:hidden;
+margin: auto;
+}
+.PCContent{
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+.PCImgContent{
+    width: 57.2%;
+    height: 300px;
+    background-color: brown;
+    float: left;
+  }
+  .PCDecription{
+    float: left;
+    width: 42.8%;
+    height: 300px;
+    background-color: orange;
+    text-align: center;
+  }
+  .PCImgRight{
+    float: right;
+  }
+  #ContactContent,#SocietyContent{
+    width: 50%;
+    float: left;
+  }
+  #SocietyContent{
+    text-align: right;
+  }
+  #FacebookIcon,#GooglePlus,#FacebookIcon>a,#GooglePlus>a{
+    display: inline;
+  }
+}
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+/*                  PC 版                    */
+/*///////////////////////////////////////////*/
+/*///////////////////////////////////////////*/
+@media screen and (min-width: 981px){
+  body{
+
+  }
+  .Container, #Header>.Container,#Taste{
+    max-width: 1170px;
+
+  }
+  #News{
+    background-image:  url('../images/bg/midbg3.jpg');
+background-position:0px 250px;
+  background-repeat:no-repeat;}
+
+  #Product{
+    background-image:  url('../images/bg/left1.png');
+  margin: 0px;
+  background-position:95% bottom;
+  background-repeat:no-repeat;
+
+  }
+  #BannerLeft{
+
+  }
+
+  #BannerRight{
+
+  }
+  .NewsContent{
+    width: 33.33333333333333%;
+    height: 300px;
+    background-color: lightblue;
+    float: left;
+  }
+  .NewsPotoDiv{
+  height: 240px;
+  overflow:hidden;
+  margin: auto;
+  }
+}
